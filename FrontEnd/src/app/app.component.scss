@@ -1,0 +1,7 @@
+app-header, router-outlet {
+    position: absolute;
+    width: 100%;
+}
+app-header {
+    z-index: 3;
+}
