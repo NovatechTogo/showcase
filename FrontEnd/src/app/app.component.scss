@@ -5,3 +5,10 @@ app-header, router-outlet {
 app-header {
     z-index: 3;
 }
+#rightMenu {
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    top: 80px;
+    right: 0px;
+}

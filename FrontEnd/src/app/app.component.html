@@ -1,2 +1,5 @@
 <app-header></app-header>
 <router-outlet></router-outlet>
+<div id="rightMenu" *ngIf="this.rightMenuService.ispen">
+    <app-right-bar></app-right-bar>
+</div>

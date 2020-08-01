@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router, Event, NavigationEnd } from '@angular/router';
+import { RightMenuService } from './services/right-menu.service';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,7 @@ import { Router, Event, NavigationEnd } from '@angular/router';
 })
 export class AppComponent {
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private rightMenuService: RightMenuService) {
     this.router.events.subscribe((event: Event) =>{
       if(event instanceof NavigationEnd) {
         if(this.router.url == '' || this.router.url == '/services') {

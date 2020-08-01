@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RightMenuService } from 'src/app/services/right-menu.service';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private rightMenuService: RightMenuService) { }
 
   hearderManagerOnScroll() {
     let header = document.getElementById("header");
@@ -28,6 +29,10 @@ export class HeaderComponent implements OnInit {
 
       }
     }
+  }
+
+  toggleMenu() {
+    this.rightMenuService.toggleMenu();
   }
 
   ngOnInit() {
