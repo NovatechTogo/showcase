@@ -40,23 +40,27 @@
     display: flex;
 }
 #carousel nz-carousel #first #descContainer, #carousel nz-carousel #second #descContainer, #carousel nz-carousel #third #descContainer {
+    position: relative;
     width: 60%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+#carousel nz-carousel #descContainer #bckgDesign {
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    background-image: url("../../../assets/Images/bckgDesign.png");
+    background-size: 100% 100%;
+    filter: opacity(.3);
+    z-index: 1;
+}
 #carousel nz-carousel #descContainer #desc {
-    position: relative;
     width: 60%;
     height: 70%;
     background-size: 100% 100%;
-}
-#carousel nz-carousel #descContainer #desc #bckgDesign {
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    height: 100%;
+    z-index: 2;
 }
 #carousel nz-carousel #descContainer #desc #title {
     width: 90%;
@@ -118,9 +122,13 @@
         width: 95%;
         height: 95%;
     }
+    #carousel nz-carousel #descContainer #bckgDesign {
+        width: 100%;
+        height: 100%;
+    }
     #carousel nz-carousel #descContainer #desc {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
     }
     #carousel nz-carousel #descContainer #desc #title {
         font-size: large;
