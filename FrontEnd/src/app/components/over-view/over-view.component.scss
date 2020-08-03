@@ -1,0 +1,25 @@
+#container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+#container #one {
+    width: 25%;
+    height: 100%;
+    background-color: #2840B6;
+}
+#container #two {
+    width: 25%;
+    height: 100%;
+    background-color: #2338A0;
+}
+#container #three {
+    width: 25%;
+    height: 100%;
+    background-color: #1F318C;
+}
+#container #four {
+    width: 25%;
+    height: 100%;
+    background-color: #1C2D7F;
+}

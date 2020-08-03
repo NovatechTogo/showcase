@@ -16,6 +16,7 @@ import { MatButtonModule, MatIconModule } from '@angular/material/';
 import { RightBarComponent } from './components/right-bar/right-bar.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { RightMenuService } from './services/rightMenu/right-menu.service';
+import { OverViewComponent } from './components/over-view/over-view.component';
 
 registerLocaleData(en);
 
@@ -26,7 +27,8 @@ registerLocaleData(en);
     HeaderComponent,
     FooterComponent,
     RightBarComponent,
-    CarouselComponent
+    CarouselComponent,
+    OverViewComponent
   ],
   imports: [
     BrowserModule,
