@@ -14,8 +14,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MatButtonModule, MatIconModule } from '@angular/material/';
 import { RightBarComponent } from './components/right-bar/right-bar.component';
-import { RightMenuService } from './services/right-menu.service';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { RightMenuService } from './services/rightMenu/right-menu.service';
 
 registerLocaleData(en);
 

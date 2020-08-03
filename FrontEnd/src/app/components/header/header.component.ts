@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RightMenuService } from 'src/app/services/right-menu.service';
+import { RightMenuService } from 'src/app/services/rightMenu/right-menu.service';
 
 @Component({
   selector: 'app-header',
