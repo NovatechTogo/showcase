@@ -18,16 +18,32 @@
 }
 #carousel #bgImg #imgContainer {
     position: relative;
-    width: 30%;
+    width: 40%;
     height: 97%;
     margin-right: 7%;
-    background-color: lawngreen;
+    display: flex;
+}
+#carousel #bgImg #imgContainer #left {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-image: url("./../../../assets/Images/one.png");
+    background-size: 100% 100%;
+}
+#carousel #bgImg #imgContainer #right {
+    position: absolute;
+    right: 20%;
+    width: 50%;
+    height: 100%;
+    background-image: url("./../../../assets/Images/two.png");
+    background-size: 100% 100%;
+    transform: rotate(15deg);
 }
 #carousel #bgImg #imgContainer #cover {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.226);
+    background-color: rgba(0, 0, 0, 0.3);
     display: none;
 }
 #carousel nz-carousel {
@@ -51,9 +67,8 @@
     position: absolute;
     width: 60%;
     height: 70%;
-    background-image: url("../../../assets/Images/bckgDesign.png");
-    background-size: 100% 100%;
     filter: opacity(.3);
+    background-color: black;
     z-index: 1;
 }
 #carousel nz-carousel #descContainer #desc {
@@ -61,6 +76,7 @@
     height: 70%;
     background-size: 100% 100%;
     z-index: 2;
+    color: white;
 }
 #carousel nz-carousel #descContainer #desc #title {
     width: 90%;
