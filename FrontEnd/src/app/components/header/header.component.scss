@@ -79,7 +79,7 @@
 }
 
 /*  KEYFRAMES  */
-@keyframes headerAnimation{
+@keyframes headerAnimation {
     from {
         background-color: rgba(40, 64, 185, 0);
         height: 100px;
@@ -89,7 +89,7 @@
         height: 80px;
     }
 }
-@keyframes headerAnimationReverse{
+@keyframes headerAnimationReverse {
     from {
         background-color: rgb(40, 64, 185);
         height: 80px;
@@ -100,20 +100,20 @@
     }
 }
 
-@keyframes mobileNavBarAnimation{
+@keyframes logoAnimation {
     from {
-        height: 80px;
+        width: 100%;
     }
     to {
-        height: 65px;
+        width: 70%;
     }
 }
-@keyframes mobileNavBarAnimationReverse{
+@keyframes logoAnimationReverse {
     from {
-        height: 65px;
+        width: 70%;
     }
     to {
-        height: 80px;
+        width: 100%;
     }
 }
 

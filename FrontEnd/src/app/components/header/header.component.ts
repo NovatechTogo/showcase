@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
 
   hearderManagerOnScroll() {
     let header = document.getElementById("header");
+    let logo = document.getElementById("theLogo");
     document.onscroll = () => {
       if(document.documentElement.scrollTop > 80) {
         header.style.animationDuration = "1s";
@@ -20,12 +21,20 @@ export class HeaderComponent implements OnInit {
         header.style.height = "80px";
         header.style.boxShadow = "0 0 2px 3px rgba(0, 0, 0, 0.05);";
 
+        logo.style.animationDuration = "1s";
+        logo.style.animationName = "logoAnimation";
+        logo.style.width = "70%";
+
       }else if(document.documentElement.scrollTop < 80) {
         header.style.animationDuration = "1s";
         header.style.animationName = "headerAnimationReverse";
         header.style.backgroundColor = '';
         header.style.height = "100px";
         header.style.boxShadow = "";
+
+        logo.style.animationDuration = "1s";
+        logo.style.animationName = "logoAnimationReverse";
+        logo.style.width = "100%";
       }
     }
   }
