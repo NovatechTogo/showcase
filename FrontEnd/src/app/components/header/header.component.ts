@@ -26,7 +26,6 @@ export class HeaderComponent implements OnInit {
         header.style.backgroundColor = '';
         header.style.height = "100px";
         header.style.boxShadow = "";
-
       }
     }
   }
