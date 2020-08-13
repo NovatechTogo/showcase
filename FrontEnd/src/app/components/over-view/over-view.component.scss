@@ -2,21 +2,54 @@
     width: 100%;
     display: flex;
 }
-#container #one, #container #two, #container #three, #container #four {
+#container .overView {
     width: 25%;
-    height: 300px;
+    height: 320px;
 }
-#container #one {
+#container .overView:nth-child(1) {
     background-color: #2840B6;
 }
-#container #two {
+#container .overView:nth-child(2) {
     background-color: #2338A0;
 }
-#container #three {
+#container .overView:nth-child(3) {
     background-color: #1F318C;
 }
-#container #four {
+#container .overView:nth-child(4) {
     background-color: #1C2D7F;
+}
+#container .overView #iconContainer {
+    width: 85%;
+    height: 40%;
+    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
+}
+#container .overView #iconContainer mat-icon {
+    font-size: 70px;
+    height: 50%;
+    // color: white;
+}
+#container .overView #iconContainer i {
+    font-size: 60px;
+    height: 50%;
+    // color: white;
+}
+#container .overView #descContainer {
+    width: 85%;
+    height: 60%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+#container .overView #descContainer #title {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+#container .overView #descContainer #desc {
+    margin-top: 20px;
+    color: white;
+    font-size: larger;
 }
 
 
@@ -29,9 +62,21 @@
     #container {
         flex-direction: column;
     }
-    #container #one, #container #two, #container #three, #container #four {
+    #container .overView {
         width: 100%;
-        height: 300px;
+        height: 310px;
+    }
+    #container .overView #iconContainer {
+        width: 95%;
+        margin: auto;
+    }
+    #container .overView #descContainer {
+        width: 95%;
+        margin: auto;
+        padding-top: 10px;
+    }
+    #container .overView #descContainer #desc {
+        margin-top: 10px;
     }
 }
 
