@@ -1,52 +1,55 @@
 #container {
     width: 100%;
+}
+#container #overViews {
+    width: 100%;
     display: flex;
 }
-#container .overView {
+#container #overViews .overView {
     width: 25%;
     height: 320px;
 }
-#container .overView:nth-child(1) {
+#container #overViews .overView:nth-child(1) {
     background-color: #2840B6;
 }
-#container .overView:nth-child(2) {
+#container #overViews .overView:nth-child(2) {
     background-color: #2338A0;
 }
-#container .overView:nth-child(3) {
+#container #overViews .overView:nth-child(3) {
     background-color: #1F318C;
 }
-#container .overView:nth-child(4) {
+#container #overViews .overView:nth-child(4) {
     background-color: #1C2D7F;
 }
-#container .overView #iconContainer {
+#container #overViews .overView #iconContainer {
     width: 85%;
     height: 40%;
     margin-left: auto;
     display: flex;
     align-items: flex-end;
 }
-#container .overView #iconContainer mat-icon {
+#container #overViews .overView #iconContainer mat-icon {
     font-size: 70px;
     height: 50%;
     // color: white;
 }
-#container .overView #iconContainer i {
+#container #overViews .overView #iconContainer i {
     font-size: 60px;
     height: 50%;
     // color: white;
 }
-#container .overView #descContainer {
+#container #overViews .overView #descContainer {
     width: 85%;
     height: 60%;
     margin-left: auto;
     padding-top: 20px;
 }
-#container .overView #descContainer #title {
+#container #overViews .overView #descContainer #title {
     color: white;
     font-weight: bold;
     font-size: x-large;
 }
-#container .overView #descContainer #desc {
+#container #overViews .overView #descContainer #desc {
     margin-top: 20px;
     color: white;
     font-size: larger;
@@ -59,23 +62,23 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    #container {
+    #container #overViews {
         flex-direction: column;
     }
-    #container .overView {
+    #container #overViews .overView {
         width: 100%;
         height: 310px;
     }
-    #container .overView #iconContainer {
+    #container #overViews .overView #iconContainer {
         width: 95%;
         margin: auto;
     }
-    #container .overView #descContainer {
+    #container #overViews .overView #descContainer {
         width: 95%;
         margin: auto;
         padding-top: 10px;
     }
-    #container .overView #descContainer #desc {
+    #container #overViews .overView #descContainer #desc {
         margin-top: 10px;
     }
 }
