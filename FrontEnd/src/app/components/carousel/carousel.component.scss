@@ -32,9 +32,10 @@
 }
 #carousel #bgImg #imgContainer #right {
     position: absolute;
-    right: 15%;
     width: 50%;
     height: 100%;
+    right: 10%;
+    top: 2%;
     background-image: url("./../../../assets/Images/two.png");
     background-size: 100% 100%;
     transform: rotate(15deg);
