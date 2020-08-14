@@ -19,7 +19,7 @@ export class HeaderComponent implements OnInit {
         header.style.animationName = "headerAnimation";
         header.style.backgroundColor = "rgb(40, 64, 185)";
         header.style.height = "80px";
-        header.style.boxShadow = "0 0 2px 3px rgba(0, 0, 0, 0.5);";
+        header.style.boxShadow = "0 0 2px 3px rgba(0, 0, 0, 0.5)";
 
         logo.style.animationDuration = "1s";
         logo.style.animationName = "logoAnimation";
