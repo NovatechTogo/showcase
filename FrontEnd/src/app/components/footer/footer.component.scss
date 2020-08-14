@@ -1,0 +1,37 @@
+#footer {
+    width: 100%;
+    height: 400px;
+    color: #94A8BE;
+    background-color: #2840B6;
+}
+#footer #container {
+    width: 100%;
+    height: 90%;
+}
+#footer #right {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer #right span {
+    font-size: large;
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
