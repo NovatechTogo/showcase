@@ -13,8 +13,9 @@
 }
 #header #logoAndName #logo {
     position: relative;
-    width: 33%;
+    width: 35%;
     height: 100%;
+    margin-left: 5%;
 }
 #header #logoAndName #logo img {
     width: 100%;
@@ -27,7 +28,7 @@
     height: 100%;
 }
 #header #logoAndName #name {
-    width: 67%;
+    width: 60%;
     height: 100%;
     display: flex;
     justify-content: center;
