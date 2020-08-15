@@ -2,18 +2,108 @@
     width: 100%;
     height: 400px;
     color: #94A8BE;
-    background-color: #2840B6;
+    background-color: #2840B9;
 }
 #footer #container {
     width: 100%;
     height: 90%;
+    display: flex;
 }
-#footer #right {
+#footer #container #novatech, #footer #container #contacts, #footer #container #usefulLink {
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer #container #content {
+    width: 90%;
+    height: 90%;
+}
+#footer #container #content #title {
     width: 100%;
-    height: 10%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    color: white;
+}
+#footer #container #novatech #content #title span:nth-child(1) {
+    color: #002546;
+}
+#footer #container #novatech #content #title span:nth-child(2) {
+    color: #DC690B;
+}
+#footer #container #content #desc {
+    width:  100%;
+    height: 80%;
+}
+#footer #container #novatech #content #desc {
+    font-size: large;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+#footer #container #contacts #content #desc #contact {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#footer #container #contacts #content #desc #contact .one {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+#footer #container #contacts #content #desc #contact .one i {
+    color: white;
+    font-size: large;
+}
+#footer #container #contacts #content #desc #contact .one span {
+    margin-left: 25px;
+}
+#footer #container #contacts #content #desc #contact .one span:hover {
+    color: white;
+}
+#footer #container #contacts #content #desc #social {
+    width: 100%;
+    height: 20%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+#footer #container #contacts #content #desc #social a {
+    font-size: x-large;
+}
+#footer #container #contacts #content #desc #social a:hover {
+    color: white;
+}
+#footer #container #usefulLink #content #desc {
+    display: flex;
+}
+#footer #container #usefulLink #content #desc #left, #footer #container #usefulLink #content #desc #right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#footer #container #usefulLink #content #desc a {
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#footer #container #usefulLink #content #desc a:hover {
+    color: white;
+}
+#footer > #right {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #273b9e;
 }
 #footer #right span {
     font-size: large;
@@ -26,6 +116,40 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    #footer {
+        height: auto;
+    }
+    #footer #container {
+        flex-direction: column;
+    }
+    #footer #container #novatech, #footer #container #contacts, #footer #container #usefulLink {
+        width: 100%;
+        height: 300px;
+        border-top: 1px solid #94A8BE;
+    }
+    #footer #container #content {
+        width: 97%;
+        height: 97%;
+    }
+    #footer #container #content #title {
+        width: auto;
+        margin-left: 10px;
+    }
+    #footer #container #contacts #content #desc #contact .one i {
+        margin-left: 30px;
+    }
+    // #footer #container #usefulLink #content #desc {
+    //     flex-direction: column;
+    // }
+    // #footer #container #usefulLink #content #desc #left {
+    //     width: 100%;
+    // }
+    // #footer #container #usefulLink #content #desc #right {
+    //     width: 100%;
+    // }
+    #footer #right span {
+        font-size: medium;
+    }
 }
 
 
