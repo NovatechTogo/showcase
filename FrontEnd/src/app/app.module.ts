@@ -17,6 +17,7 @@ import { RightBarComponent } from './components/right-bar/right-bar.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { RightMenuService } from './services/rightMenu/right-menu.service';
 import { OverViewComponent } from './components/over-view/over-view.component';
+import { WhyChooseUsComponent } from './components/why-choose-us/why-choose-us.component';
 
 registerLocaleData(en);
 
@@ -28,7 +29,8 @@ registerLocaleData(en);
     FooterComponent,
     RightBarComponent,
     CarouselComponent,
-    OverViewComponent
+    OverViewComponent,
+    WhyChooseUsComponent
   ],
   imports: [
     BrowserModule,
