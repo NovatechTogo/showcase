@@ -13,7 +13,7 @@
 }
 #header #logoAndName #logo {
     position: relative;
-    width: 35%;
+    width: 25%;
     height: 100%;
     margin-left: 5%;
 }
@@ -31,11 +31,11 @@
     width: 60%;
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 30px;
 }
 #header #logoAndName #name span:nth-child(1) {
+    margin-left: 5%;
     color: #002546;
 }
 #header #logoAndName #name span:nth-child(2) {

@@ -80,7 +80,7 @@
     justify-content: center;
     text-align: justify;
     align-items: center;
-    font-size: xx-large;
+    font-size: 40px;
 }
 #carousel nz-carousel #descContainer #desc #subTitle {
     width: 80%;
@@ -90,7 +90,7 @@
     justify-content: center;
     text-align: justify;
     align-items: center;
-    font-size: large;
+    font-size: 25px;
 }
 #carousel nz-carousel #descContainer #desc #btn {
     width: 100%;
@@ -146,10 +146,12 @@
         height: 100%;
     }
     #carousel nz-carousel #descContainer #desc #title {
-        font-size: large;
+        width: 95%;
+        font-size: 35px;
     }
     #carousel nz-carousel #descContainer #desc #subTitle {
-        font-size: medium;
+        width: 90%;
+        font-size: 22px;
     }
     #carousel nz-carousel #descContainer #desc #btn button {
         padding: 5px;
