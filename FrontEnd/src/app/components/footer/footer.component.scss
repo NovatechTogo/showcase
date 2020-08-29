@@ -1,6 +1,6 @@
 #footer {
     width: 100%;
-    height: 400px;
+    height: 350px;
     color: #94A8BE;
     background-color: #2840B9;
 }
@@ -50,6 +50,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: medium;
 }
 #footer #container #contacts #content #desc #contact .one {
     width: 100%;
@@ -93,6 +94,7 @@
 #footer #container #usefulLink #content #desc a {
     margin-left: 10px;
     color: rgba(255, 255, 255, 0.7);
+    font-size: medium;
 }
 #footer #container #usefulLink #content #desc a:hover {
     color: white;
