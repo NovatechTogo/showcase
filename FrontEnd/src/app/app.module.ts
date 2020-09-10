@@ -18,6 +18,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { RightMenuService } from './services/rightMenu/right-menu.service';
 import { OverViewComponent } from './components/over-view/over-view.component';
 import { WhyChooseUsComponent } from './components/why-choose-us/why-choose-us.component';
+import { OurServicesComponent } from './pages/our-services/our-services.component';
+import { OurServicesTopComponent } from './components/our-services-top/our-services-top.component';
 
 registerLocaleData(en);
 
@@ -30,7 +32,9 @@ registerLocaleData(en);
     RightBarComponent,
     CarouselComponent,
     OverViewComponent,
-    WhyChooseUsComponent
+    WhyChooseUsComponent,
+    OurServicesComponent,
+    OurServicesTopComponent
   ],
   imports: [
     BrowserModule,

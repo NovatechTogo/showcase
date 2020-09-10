@@ -12,7 +12,7 @@ export class AppComponent {
   constructor(private router: Router, public rightMenuService: RightMenuService) {
     this.router.events.subscribe((event: Event) =>{
       if(event instanceof NavigationEnd) {
-        if(this.router.url == '' || this.router.url == '/services') {
+        if(this.router.url == '/' || this.router.url == '/services') {
           document.documentElement.scrollTop = 0;
         }
       }
