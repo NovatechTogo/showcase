@@ -20,6 +20,7 @@ import { OverViewComponent } from './components/over-view/over-view.component';
 import { WhyChooseUsComponent } from './components/why-choose-us/why-choose-us.component';
 import { OurServicesComponent } from './pages/our-services/our-services.component';
 import { OurServicesTopComponent } from './components/our-services-top/our-services-top.component';
+import { OurServicesCardsComponent } from './components/our-services-cards/our-services-cards.component';
 
 registerLocaleData(en);
 
@@ -34,7 +35,8 @@ registerLocaleData(en);
     OverViewComponent,
     WhyChooseUsComponent,
     OurServicesComponent,
-    OurServicesTopComponent
+    OurServicesTopComponent,
+    OurServicesCardsComponent
   ],
   imports: [
     BrowserModule,

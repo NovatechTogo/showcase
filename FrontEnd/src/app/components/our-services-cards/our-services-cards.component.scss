@@ -1,0 +1,107 @@
+#container {
+    width: 100%;
+    background-color: white;
+}
+#container #services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#container #title {
+    width: 100%;
+    height: 80px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    background-color: #F7F7F7;
+    margin-bottom: 50px;
+}
+#container #services .one {
+    position: relative;
+    width: 370px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: white;
+    border: 3px solid #eaeced;
+}
+#container #services .one #titleBck {
+    position: absolute;
+    width: 80%;
+    top: -40px;
+    left: 10%;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+	border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+	border-width: 30px;
+}
+#container #services .one #titleBckCache {
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    left: 10%;
+    top: 0px;
+    background-color: white;
+}
+#container #services .one #titleTop {
+    position: absolute;
+    width: 62%;
+    top: -10px;
+    left: 19%;
+    border: 1px solid black;
+	border-color: black transparent transparent transparent;
+    border-width: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#container #services .one #titleTop span {
+    position: absolute;
+    top: -38px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+}
+#container #services .one:nth-child(2) #titleBck {
+    border: 1px solid rgba(40, 64, 185, 0.7);
+	border-color: transparent transparent rgba(40, 64, 185, 0.7) transparent;
+	border-width: 30px;
+}
+#container #services .one:nth-child(2) #titleTop {
+    border: 1px solid #2840B9;
+	border-color: #2840B9 transparent transparent transparent;
+    border-width: 50px;
+}
+#container #services .one:nth-child(3) #titleBck {
+    border: 1px solid rgba(220, 105, 11, 0.7);
+	border-color: transparent transparent rgba(220, 105, 11, 0.7) transparent;
+	border-width: 30px;
+}
+#container #services .one:nth-child(3) #titleTop {
+    border: 1px solid #DC690B;
+	border-color: #DC690B transparent transparent transparent;
+    border-width: 50px;
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #container #title {
+        padding-left: 30px;
+        font-size: large;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
