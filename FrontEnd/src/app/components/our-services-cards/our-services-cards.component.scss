@@ -31,8 +31,8 @@
     width: 80%;
     top: -40px;
     left: 10%;
-    border: 1px solid rgba(0, 0, 0, 0.7);
-	border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+    border: 1px solid #012d44a6;
+	border-color: transparent transparent #012d44a6 transparent;
 	border-width: 30px;
 }
 #container #services .one #titleBckCache {
@@ -48,8 +48,8 @@
     width: 62%;
     top: -10px;
     left: 19%;
-    border: 1px solid black;
-	border-color: black transparent transparent transparent;
+    border: 1px solid #012C44;
+	border-color: #012C44 transparent transparent transparent;
     border-width: 50px;
     display: flex;
     flex-direction: column;
@@ -65,23 +65,23 @@
     font-weight: bold;
 }
 #container #services .one:nth-child(2) #titleBck {
-    border: 1px solid rgba(40, 64, 185, 0.7);
-	border-color: transparent transparent rgba(40, 64, 185, 0.7) transparent;
+    border: 1px solid #f078009f;
+	border-color: transparent transparent #f078009f transparent;
 	border-width: 30px;
 }
 #container #services .one:nth-child(2) #titleTop {
-    border: 1px solid #2840B9;
-	border-color: #2840B9 transparent transparent transparent;
+    border: 1px solid #F07700;
+	border-color: #F07700 transparent transparent transparent;
     border-width: 50px;
 }
 #container #services .one:nth-child(3) #titleBck {
-    border: 1px solid rgba(220, 105, 11, 0.7);
-	border-color: transparent transparent rgba(220, 105, 11, 0.7) transparent;
+    border: 1px solid #1b611ea8;
+	border-color: transparent transparent #1b611ea8 transparent;
 	border-width: 30px;
 }
 #container #services .one:nth-child(3) #titleTop {
-    border: 1px solid #DC690B;
-	border-color: #DC690B transparent transparent transparent;
+    border: 1px solid #1B611E;
+	border-color: #1B611E transparent transparent transparent;
     border-width: 50px;
 }
 
