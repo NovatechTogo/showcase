@@ -21,6 +21,7 @@ import { WhyChooseUsComponent } from './components/why-choose-us/why-choose-us.c
 import { OurServicesComponent } from './pages/our-services/our-services.component';
 import { OurServicesTopComponent } from './components/our-services-top/our-services-top.component';
 import { OurServicesCardsComponent } from './components/our-services-cards/our-services-cards.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 registerLocaleData(en);
 
@@ -36,7 +37,8 @@ registerLocaleData(en);
     WhyChooseUsComponent,
     OurServicesComponent,
     OurServicesTopComponent,
-    OurServicesCardsComponent
+    OurServicesCardsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
