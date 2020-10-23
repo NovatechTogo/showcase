@@ -6,42 +6,46 @@
     display: flex;
     justify-content: space-between;
 }
-#header #logoAndName {
+#header > a {
     width: 25%;
+    height: 100%;
+}
+#header a #logoAndName {
+    width: 100%;
     height: 100%;
     display: flex;
 }
-#header #logoAndName #logo {
+#header a #logoAndName #logo {
     position: relative;
     width: 110px;
     height: 100%;
     margin-left: 5%;
 }
-#header #logoAndName #logo img {
+#header a #logoAndName #logo img {
     width: 100%;
     height: 100%;
 }
-#header #logoAndName #logo #cover {
+#header a #logoAndName #logo #cover {
     position: absolute;
     top: 0px;
     width: 100%;
     height: 100%;
 }
-#header #logoAndName #name {
+#header a #logoAndName #name {
     width: 60%;
     height: 100%;
     display: flex;
     align-items: center;
     font-size: 30px;
 }
-#header #logoAndName #name span:nth-child(1) {
+#header a #logoAndName #name span:nth-child(1) {
     margin-left: 5%;
     color: #002546;
 }
-#header #logoAndName #name span:nth-child(2) {
+#header a #logoAndName #name span:nth-child(2) {
     color: #DC690B;
 }
-#header #logoAndName #name span:nth-child(3) {
+#header a #logoAndName #name span:nth-child(3) {
     margin-left: 5px;
     color: #1B611E;
 }
@@ -133,13 +137,13 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    #header #logoAndName {
+    #header a {
         width: 30%;
     }
-    #header #logoAndName #logo {
+    #header a #logoAndName #logo {
         width: 110px;
     }
-    #header #logoAndName #name {
+    #header a #logoAndName #name {
         display: none;
     }
     #header #menu {
