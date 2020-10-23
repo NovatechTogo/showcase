@@ -84,6 +84,35 @@
 	border-color: #1B611E transparent transparent transparent;
     border-width: 50px;
 }
+#container #services .one #content {
+    margin-top: 70px;
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+}
+#container #services .one #content .option {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+#container #services .one #content .option:first-child {
+    border-top: 1px solid black;
+}
+#container #services .one #content .option #arrow {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container #services .one #content .option #desc {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 
 
 /* Large devices (desktops, less than 1200px) */
