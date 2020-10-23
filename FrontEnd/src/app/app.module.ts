@@ -24,6 +24,7 @@ import { OurServicesCardsComponent } from './components/our-services-cards/our-s
 import { ContactComponent } from './pages/contact/contact.component';
 import { ContactTopComponent } from './components/contact-top/contact-top.component';
 import { AboutComponent } from './pages/about/about.component';
+import { AboutTopComponent } from './components/about-top/about-top.component';
 
 registerLocaleData(en);
 
@@ -42,7 +43,8 @@ registerLocaleData(en);
     OurServicesCardsComponent,
     ContactComponent,
     ContactTopComponent,
-    AboutComponent
+    AboutComponent,
+    AboutTopComponent
   ],
   imports: [
     BrowserModule,
