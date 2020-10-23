@@ -87,7 +87,7 @@
 #container #services .one #content {
     margin-top: 70px;
     width: 100%;
-    height: calc(100% - 70px);
+    height: calc(100% - 130px);
     display: flex;
     flex-direction: column;
 }
@@ -112,6 +112,19 @@
     height: 100%;
     display: flex;
     align-items: center;
+}
+#container #services .one #optionBtn {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container #services .one #optionBtn button {
+    width: 60%;
+    height: 80%;
+    background-color: #2840B9;
+    color: white;
 }
 
 
